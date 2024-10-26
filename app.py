@@ -30,6 +30,9 @@ st.markdown(
         [data-testid="stToolbar"] {
             display: none;
         }
+        ._profileContainer_1yi6l_53 {
+            display: none;
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -111,6 +114,9 @@ else:
             display: none;
         }
         [data-testid="stToolbar"] {
+            display: none;
+        }
+        ._profileContainer_1yi6l_53 {
             display: none;
         }
         </style>
