@@ -1,0 +1,7 @@
+fastai
+scikit-image
+openpyxl
+pandas
+httpx==0.24.1
+gradio==3.44.3
+streamlit
