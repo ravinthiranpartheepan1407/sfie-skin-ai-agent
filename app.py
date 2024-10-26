@@ -18,22 +18,22 @@ if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 st.set_page_config(page_title="SFIE Beauty Sandbox")
 
 st.markdown(
-    """
-    <style>
-    [data-testid="stAppViewContainer"] > .main {
-        background-color: 'black';
-        color: 'white';
-    }
-    [data-testid="stHeader"] {
-        display: none;
-    }
-    [data-testid="stToolbar"] {
-        display: none;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+        """
+        <style>
+        [data-testid="stAppViewContainer"] > .main {
+            background-color: 'black';
+            color: 'white';
+        }
+        [data-testid="stHeader"] {
+            display: none;
+        }
+        [data-testid="stToolbar"] {
+            display: none;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
 
 # Sidebar menu with session state
 st.sidebar.title("Menu")
