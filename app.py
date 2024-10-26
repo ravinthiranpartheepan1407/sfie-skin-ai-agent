@@ -17,6 +17,24 @@ if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 # Set page configuration
 st.set_page_config(page_title="SFIE Beauty Sandbox")
 
+st.markdown(
+    """
+    <style>
+    [data-testid="stAppViewContainer"] > .main {
+        background-color: 'black';
+        color: 'white';
+    }
+    [data-testid="stHeader"] {
+        display: none;
+    }
+    [data-testid="stToolbar"] {
+        display: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 # Sidebar menu with session state
 st.sidebar.title("Menu")
 if "app_mode" not in st.session_state:
